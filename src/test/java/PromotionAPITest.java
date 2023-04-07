@@ -28,6 +28,7 @@ public class PromotionAPITest extends LoginAPITest {
         PromotionResponseObject promotionResponseObject = PromotionMapper.readObjectPromotion(response);
         Assert.assertEquals(productId, promotionResponseObject.getId().asInt());
         System.out.println(promotionResponseObject.getId().asInt());
+
     }
 }
 
